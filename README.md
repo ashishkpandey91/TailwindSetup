@@ -11,4 +11,10 @@ npm install -D tailwindcss postcss autoprefixer vite
 ```bash
 npx tailwindcss init
 ```
-
+- Step_3. Create a css file **input.css** add it to your html and edit it with this content:
+  ```bash
+  @tailwind base;
+ @tailwind components;
+ @tailwind utilities;
+ ```
+- Step_4. 
