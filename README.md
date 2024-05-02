@@ -9,7 +9,7 @@
        npm install -D tailwindcss postcss autoprefixer vite
 ```
 ```bash
-       npx tailwindcss init
+       npx tailwindcss init -p
 ```
 - Step_3. Create a css file **input.css** add it to your html and edit it with this content:
   
@@ -18,7 +18,7 @@
          @tailwind components;
          @tailwind utilities;
   ```
- - Step_4. In your tailwind.config.js file replace **content: [], with content: ["*"],**
+ - Step_4. In your **tailwind.config.js** file replace **content: [], with content: ["*"],**
   
  - Step_5. Add **"start" : "vite"** to your scripts in package.json
    
